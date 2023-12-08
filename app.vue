@@ -11,7 +11,8 @@ const isDark = computed({
 // Accordion dropdowns
 const items = [
   {
-    label: 'Project 1 - UV Map Brick and Slate Roof Tiling Textures onto Basic House Model',
+    label:
+      'Project 1 - [Assignment] UV Map Brick & Slate Roof Tiling Textures onto Basic House Model',
     icon: 'i-heroicons-information-circle',
     defaultOpen: true,
     slot: 'project-1',
@@ -19,7 +20,7 @@ const items = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.', */
   },
   {
-    label: 'Project 2 - [Assignment] Model a House by Mike Hermes',
+    label: 'Project 2 - [Assignment] Model a House',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     slot: 'project-2',
@@ -32,13 +33,13 @@ const items = [
   },
   {
     label:
-      'Project 4 - [Assignment] Create a Floor Tiling Texture and a Terrain Tiling Texture. Diffuse and Normal Maps. No AI generated textures.',
+      'Project 4 - [Assignment] Create a Floor Tiling & Terrain Tiling Texture. Diffuse and Normal Maps. No AI generated textures.',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     slot: 'project-4',
   },
   {
-    label: 'Project 5 - [Assignment] Create Materials for the Barrel with Substance Painter',
+    label: 'Project 5 - [Assignment] Model a 3D Barrel in Maya & Unity',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     slot: 'project-5',
@@ -62,14 +63,13 @@ const items = [
     slot: 'project-8',
   },
   {
-    label:
-      'Project 9 - [Assignment] Build and Texture a Plant; Build and texture a Pot for the Plant',
+    label: 'Project 9 - [Assignment] Build and Texture a Plant',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     slot: 'project-9',
   },
   {
-    label: 'Final Project',
+    label: '[Final Assignment] - One game ready, pro game model',
     icon: 'i-heroicons-information-circle',
     defaultOpen: false,
     slot: 'final-project',
@@ -113,12 +113,12 @@ const items = [
             textures, and applying and aligning and projecting UVs. The purpose is to learn to align
             UVs. Using the default UVs of a primitive model is not acceptable. <br /><br />
           </p>
-          <img class="object-cover" src="./media/P1/project1.jpg" alt="Project Image" />
+          <!-- <img class="object-cover" src="./media/P1/project1.jpg" alt="Project Image" /> -->
           <img class="object-cover" src="./media/P1/project1_1.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-2>
-        <div class="">
+        <div class="flex flex-col justify-center items-center gap-2">
           <p class="text-sm text-gray-500 dark:text-gray-400"><br /><br /></p>
           <img class="object" src="./media/P2/project2.jpg" alt="Project Image" />
           <img class="object" src="./media/P2/project2_2.jpg" alt="Project Image" />
@@ -127,55 +127,59 @@ const items = [
       <template #project-3>
         <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
-          <img class="object" src="./media/P3/project3.jpg" alt="Project Image" />
+          <!-- <img class="object" src="./media/P3/project3.jpg" alt="Project Image" /> -->
           <img class="object" src="./media/P3/project3_3.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-4>
-        <div class="">
+        <div class="flex flex-col justify-center items-center gap-2">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
           <img class="object" src="./media/P4/project4.jpg" alt="Project Image" />
           <img class="object" src="./media/P4/project4_4.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-5>
-        <div class="flex flex-col justify-center items-center gap-1">
+        <div class="flex flex-col justify-center items-center gap-2">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
           <img class="object" src="./media/P5/project5.jpg" alt="Project Image" />
           <img class="object" src="./media/P5/project5_5.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-6>
-        <div class="flex justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
-          <img class="object-cover h-48 w-96" src="./media/P6/project6.jpg" alt="Project Image" />
+          <img class="object" src="./media/P6/project6.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-7>
-        <div class="flex justify-center items-center gap-1">
+        <div class="">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
-          <img class="object-cover h-48 w-96" src="./media/P7/project7.jpg" alt="Project Image" />
-          <img class="object-cover h-48 w-96" src="./media/P7/project7_7.jpg" alt="Project Image" />
+          <!-- <img class="object" src="./media/P7/project7.jpg" alt="Project Image" /> -->
+          <img class="object" src="./media/P7/project7_7.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-8>
-        <div class="flex justify-center items-center gap-1">
+        <div class="flex flex-col justify-center items-center gap-2">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
-          <img class="object-cover h-48 w-96" src="./media/P8/project8.jpg" alt="Project Image" />
-          <img class="object-cover h-48 w-96" src="./media/P8/project8_8.jpg" alt="Project Image" />
+          <img class="object" src="./media/P8/project8.jpg" alt="Project Image" />
+          <img class="object" src="./media/P8/project8_8.jpg" alt="Project Image" />
         </div>
       </template>
       <template #project-9>
-        <div class="">
+        <div class="flex flex-col justify-center items-center gap-2">
           <p class="text-sm text-gray-500 dark:text-gray-400"></p>
           <!-- <video src="./media/P9/project9.mp4" alt="Project Video Bouncing Ball" controls></video> -->
-          <img class="object-cover h-48 w-96" src="./media/P9/project9.jpg" alt="Project Image" />
-          <img class="object-cover h-48 w-96" src="./media/P9/project9_9.jpg" alt="Project Image" />
+          <img class="object" src="./media/P9/project9.jpg" alt="Project Image" />
+          <img class="object" src="./media/P9/project9_9.jpg" alt="Project Image" />
         </div>
       </template>
       <template #final-project>
-        <div class="">
-          <p class="text-sm text-gray-500 dark:text-gray-400"></p>
+        <div class="flex flex-col justify-center items-center gap-2">
+          <p class="text-sm text-gray-500 dark:text-gray-400">
+            The final project will be one object that represents 3 or 4 different looks (glossy,
+            metal, wood, rubber, steel, glass, etc.). Final should be PBR based Metallic/Roughness
+            workflow (Physically Based Rendering). Aesthetics matter. <br /><br />
+          </p>
           <img src="./media/P10/project10.jpg" alt="Project Image" />
           <img src="./media/P10/project10_10.jpg" alt="Project Image" />
           <img src="./media/P10/project10_10_10.jpg" alt="Project Image" />
