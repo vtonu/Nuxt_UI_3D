@@ -1,5 +1,8 @@
 3D Materials & Textures
 
+![image](https://github.com/vtonu/Nuxt_UI_3D/assets/56773210/dd340852-e181-4154-892d-21ebe76ec513)
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
