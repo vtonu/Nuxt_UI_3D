@@ -1,4 +1,4 @@
-3D Materials & Textures
+A NuxtJS Project using Vue, NuxtLabs UI & TailwindCSS - 3D Materials & Textures Class
 
 ![image](https://github.com/vtonu/Nuxt_UI_3D/assets/56773210/dd340852-e181-4154-892d-21ebe76ec513)
 
